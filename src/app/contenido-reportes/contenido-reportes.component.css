@@ -1,0 +1,104 @@
+:host {
+    padding:20px;
+    height:90%;
+}
+
+h4 {
+    color:  #1b0088;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h5 {
+    color: #00AFA9;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0 0 21px 0;
+    font-family: Arial black, regular;
+}
+
+.formas-cuerpo {
+    height:80%;
+    border:1px solid gray;
+    padding: 20px 20px 0 20px;
+}
+
+.formas-cuerpo form {
+    height:80%;
+}
+
+input[type="text"] {
+    display: block;
+    width: 20%;
+    padding: 7px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 4px;
+    border: 1px solid gray;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+
+select {
+    display: block;
+    padding: 7px 20px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+
+input[type="text"].input-subir-archivo{
+    background-image: url(../../assets/imagenes/flechaarribasubirarchivo.png);
+    background-repeat: no-repeat;
+    background-position: 93% center;
+}
+
+input[type="text"].input-periodo{
+    background-image: url(../../assets/imagenes/calendario.png);
+    background-repeat: no-repeat;
+    background-position: 93% center;
+}
+
+.boton {
+    display:inline-block;
+    padding:0.5em 3em;    
+    border:0;
+    text-decoration:none;
+    font-weight:900;
+    background-color: #ED1650;
+    color: white;
+    text-align:center;
+    -webkit-appearance: none;
+}
+.boton-secundario {
+    display:inline-block;
+    padding:0.5em 3em;    
+    border:0;
+    margin-left: 10px;
+    text-decoration:none;
+    font-weight:900;
+    background-color: white;
+    border: 1px solid #00AFA9;
+    color: #00AFA9;
+    text-align:center;
+    -webkit-appearance: none;
+
+}
+
+.grupo-botones {    
+    display: flex;
+    height:39%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

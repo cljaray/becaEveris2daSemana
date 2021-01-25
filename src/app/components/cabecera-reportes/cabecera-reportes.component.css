@@ -1,0 +1,18 @@
+:host{
+    background-image: url(../../../assets/imagenes/reportesrojo.png);
+    background-repeat: no-repeat;
+    background-position: 4% center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: #e9124c;
+}
+
+h2 {
+    margin-left: 3em;
+    font-weight: 200;
+}
